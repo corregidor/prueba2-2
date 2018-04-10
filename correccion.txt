@@ -1,0 +1,67 @@
+La prueba consta de 5 items
+Cada item vale 2 puntos
+Dentro de cada item se espera:
+	a) Indentacion correcta : 0.5 pt
+	b) Correcto uso del lenguaje: 0.5 pt 
+	c) Resolución del problema: 1 pt
+
+
+Item 1 : Menu
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5
+c) Resolución del problema: 0.5
+Comentarios:
+
+
+Item 2 : Promedios por alumnos en archivo adicional
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+Comentarios:
+Comentarios en el código. Ppodria haber quedado hacia abajo cada linea, se lee mejor
+
+Item 3 : Conteo de inasistencias totales en pantalla
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 0.2
+Comentarios:
+podria verse más ordenado en pantalla.
+correcciones en el codigo
+
+Item 4 : Alumnos aprobados por pantalla
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+Comentarios:
+
+
+Item 5 : Salir
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 0.3
+Comentarios:
+
+No sale nunca del programa, se crea un loop infinito, agregue puntaje por haber algo de código
+
+
+Comentarios generales:
+si bien todo funciona, es mas correcto colocar cada funcionalidad en un metodo 
+y que despues este metodo sea llamado en el menu que le corresponde.en que te equivocas
+o que hace cada cosa, es mas facil visualizar el error.
+Si no sabes que estas haciendo, imprime las variables que te esten dando para saber 
+Consejo: haz más ejercicios, aunque te equivoques, para que entiendas los conceptos mejor,
+codear y equivocarse es la mejor manera de aprender, otra cosa, todos los informaticos
+y similares se equivocan, no eres la excepcion, he visto errores del terror y en esta area es
+normal, todo se aprende, y equivocarse le pasa a todos!!! Pregunta mas en clases para que los profesores 
+sepan cuando te pierdes, la mayoria se pierde, pero le da verguenza admitirlo. La tolerancia a la frustracion
+es importante considerarla, no te desanimes si las cosas no funcionan ya que todos pasan por eso.
+
+
+
+
+  

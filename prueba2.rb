@@ -53,6 +53,8 @@ while continuar
           end
     end
     menu
+    #no lo debes de llamar porque se visualizara mas veces de las requeridas
+    #y el usuario no entenderá nada
 ##
     if opcion.to_i == 2 
 ##archivo #metodo que abre el archivo
@@ -68,12 +70,29 @@ while continuar
             arreglo = line.split(', ')
             nombre = arreglo[0]
             arreglo_ausentes = (arreglo[1..5]).to_i.select {|num| num = 0 }
+            #correccion:
+            #El arreglo es:
+            #arreglo = juan, 3, 2, 6 por ejemplo, to quieres pasar a entero una cosa
+            #que es un conjunto de cosas y el metodo .to_i funciona por elemento, no
+            #por conjunto
+            #si imprimes arreglo_ausentes te daras cuenta que solo aparece una linea,
+            #entonces tendrias que repetir cada linea para obtener el total(hacer un each por ej)
+            #otra cosa si lo imprimes te da varios arreglos, 
+            #pero en ningun momento sumas los datos
+            #ademas ahi colocas que sea igual a cero, la unica forma es pasar a entero,
+            #pero ahi debiera de ser por cada elemento(no olvidar iterar)
+##############################################################################################
+
             # En teoría deberia de recorrer el arreglo seleccionando los que son 0, 
             # pasando letras => 0 y los números los deja como números
             # y metiendolos en un arreglo...pero no entiendo porque no funciona :(
-            numero_ausentes = (arreglo_ausentes.length)
+            numero_ausentes = (arreglo_ausentes)
+            #correccion:
+            #el numero de ausentes es el largo total, aun cambiando lo anterior no cuenta el numero de
+            #ausencias del arreglo, no es relevante saber el largo a menos que te pidan el promedio
+            #independiente de 
             arreglo_nombre_ausente = [nombre, numero_ausentes]
-            puts arreglo_nombre_ausente
+            #puts arreglo_nombre_ausente
           end
     end
     menu
@@ -100,8 +119,12 @@ while continuar
         end
     end
     menu
+    #no llames al menu en cada if, confunde!!!
 ##
+
     if opcion == 4
+      #debio ser: if opcion.to_i == 4, ya que el opcion es un string(palabra) y no entiende la comparacion con un
+      #entero (numero), por eso el programa no logra salir
         continuar = false
     end
 end
